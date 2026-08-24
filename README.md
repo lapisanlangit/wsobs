@@ -37,7 +37,7 @@ buat database dengan nama : logs dan collection: dengan nama app_logs
 Running Production
 =======
 
-npm run prod => linux
+npm run prod => linux/apple,
 npm run prodwin => windows
 
 &#x20; http://localhost:3000/logmongo.html
