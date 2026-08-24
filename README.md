@@ -30,6 +30,8 @@ Logging ke MongoDB
 
 docker run -d --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password123 -e MONGO_INITDB_DATABASE=logs mongo:latest
 
+install MongoDB Compass
+
 buat database dengan nama : logs dan collection: dengan nama app_logs
 
 &#x20; http://localhost:3000/logmongo.html
