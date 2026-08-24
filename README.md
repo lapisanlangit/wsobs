@@ -36,7 +36,7 @@ buat database dengan nama : logs dan collection: dengan nama app_logs
 
 Running Production
 =======
-
+npm run prod baru kesimpan di MongoDB, jika npm run dev hanya muncul di terminal local
 npm run prod => linux/apple,
 npm run prodwin => windows
 
