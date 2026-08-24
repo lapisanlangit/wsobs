@@ -9,6 +9,7 @@ const {
   GetObjectCommand,
 } = require("@aws-sdk/client-s3");
 const { getSignedUrl } = require("@aws-sdk/s3-request-presigner");
+const log = require("./log");
 
 const app = express();
 app.use(cors());
@@ -98,6 +99,21 @@ app.get("/download/:key", async (req, res) => {
     data.Body.pipe(res);
   } catch (err) {
     res.status(404).json({ message: "file tidak ketemu", error: err.message });
+  }
+});
+app.post("/logmongo", async (req, res) => {
+  try {
+    xyw;
+  } catch (err) {
+    const isiId = 10;
+    const isiRemoteAddress = "127.0.0.1";
+    const isiMethode = "POST /users/tesMongo";
+    const isiBody = { id: 10, nama: "lala" };
+    const isiQuery = {};
+
+    log(isiId, isiRemoteAddress, isiMethode, isiBody, isiQuery, err);
+
+    res.status(404).json({ message: "ada eror", error: err.message });
   }
 });
 
