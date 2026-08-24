@@ -20,5 +20,5 @@ Upload Multiple File pdf :
 
 &#x20;   http://localhost:3000/multiplupload.html
 
-
+download
 
